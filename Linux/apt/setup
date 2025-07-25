@@ -1,0 +1,245 @@
+#!/bin/bash
+
+#
+# Exit if a command fails.
+#
+set -e
+
+# https://git-scm.com
+sudo apt install -y git
+sudo apt install -y gitk
+
+# https://wiki.gnome.org/Projects/dconf
+sudo apt install -y dconf-editor
+
+# https://sourceforge.net/projects/preload
+sudo apt install -y preload
+
+# https://packages.debian.org/stable/build-essential
+sudo apt install -y build-essential
+
+# https://github.com/mvo5/synaptic
+sudo apt install -y synaptic
+
+# https://www.freedesktop.org/wiki/Software/libinput
+sudo apt install -y libinput-tools
+
+# https://gitlab.freedesktop.org/libevdev/evtest
+sudo apt install -y evtest
+
+# https://gitlab.freedesktop.org/xorg/app/xinput
+sudo apt install -y xinput
+
+# https://xcb.freedesktop.org
+sudo apt install -y libxcb-xtest0
+
+# https://github.com/libarchive/libarchive
+sudo apt install -y libarchive-tools
+
+# https://github.com/brndnmtthws/conky
+sudo apt install -y conky
+
+# https://github.com/numixproject
+sudo apt install -y numix-gtk-theme
+sudo apt install -y numix-icon-theme
+sudo apt install -y numix-icon-theme-circle
+
+# https://github.com/dylanaraps/neofetch
+sudo apt install -y neofetch
+
+# https://github.com/gnome-terminator/terminator
+sudo apt install -y terminator
+
+# https://github.com/vim/vim
+sudo apt install -y vim
+
+# https://packages.debian.org/stable/xxd
+sudo apt install -y xxd
+
+# https://github.com/neovim/neovim
+sudo apt install -y neovim
+
+# https://www.gnu.org/software/emacs
+sudo apt install -y emacs
+
+# https://atoptool.nl
+sudo apt install -y atop
+
+# https://github.com/htop-dev/htop
+sudo apt install -y htop
+
+# http://nmon.sourceforge.net
+sudo apt install -y nmon
+
+# https://github.com/sharkdp/bat
+sudo apt install -y bat
+
+# https://github.com/andreafrancia/trash-cli
+sudo apt install -y trash-cli
+
+# https://github.com/tmux/tmux
+sudo apt install -y tmux
+
+# https://github.com/curl/curl
+sudo apt install -y curl
+
+# https://github.com/BurntSushi/ripgrep
+sudo apt install -y ripgrep
+
+# https://sourceforge.net/p/zsh/code
+sudo apt install -y zsh
+
+# https://github.com/fish-shell/fish-shell
+sudo apt install -y fish
+
+# https://gparted.org
+sudo apt install -y gparted
+
+# https://www.kernel.org/pub/software/network/ethtool
+sudo apt install -y ethtool
+
+# https://github.com/lyonel/lshw
+sudo apt install -y lshw
+
+# https://github.com/lpereira/hardinfo
+sudo apt install -y hardinfo
+
+# https://github.com/openSUSE/hwinfo
+sudo apt install -y hwinfo
+
+# https://dev.yorhel.nl/ncdu
+sudo apt install -y ncdu
+
+# https://www.cgsecurity.org/wiki/TestDisk_Download
+sudo apt install -y testdisk
+
+# https://github.com/Conservatory/wmctrl
+sudo apt install -y wmctrl
+
+# https://github.com/psibi/tldr-hs
+sudo apt install -y tldr
+
+# https://packages.debian.org/stable/secure-delete
+sudo apt install -y secure-delete
+
+# https://github.com/berke/wipe
+sudo apt install -y wipe
+
+# https://github.com/derf/feh
+sudo apt install -y feh
+
+# https://github.com/lavv17/le
+sudo apt install -y le
+
+# https://github.com/zyedidia/micro
+sudo apt install -y micro
+
+# https://github.com/geany/geany
+sudo apt install -y geany
+
+# https://github.com/KDE/okular
+sudo apt install -y okular
+
+# https://launchpad.net/grub-customizer
+sudo apt install -y grub-customizer
+
+# https://www.libreoffice.org
+sudo apt install -y libreoffice-java-common
+
+# https://github.com/imagemagick/imagemagick
+sudo apt install -y imagemagick
+
+# http://www.graphicsmagick.org
+sudo apt install -y graphicsmagick
+
+# https://github.com/exiftool/exiftool
+sudo apt install -y libimage-exiftool-perl
+
+# https://github.com/abishekvashok/cmatrix
+sudo apt install -y cmatrix
+
+# https://www.cstr.ed.ac.uk/projects/festival
+sudo apt install -y festival
+
+# https://github.com/mtoyoda/sl
+sudo apt install -y sl
+
+# https://packages.debian.org/stable/cowsay
+sudo apt install -y cowsay
+
+# https://aa-project.sourceforge.net/bb
+sudo apt install -y bb
+
+# https://github.com/Talinx/jp2a
+sudo apt install -y jp2a
+
+# https://github.com/Hjdskes/gcolor3
+sudo apt install -y gcolor3
+
+# https://www.graphviz.org
+sudo apt install -y graphviz
+
+# https://p7zip.sourceforge.net
+sudo apt install -y p7zip
+sudo apt install -y p7zip-full
+sudo apt install -y p7zip-rar
+
+# https://www.7-zip.org/sdk.html
+sudo apt install -y lzma
+sudo apt install -y lzma-dev
+
+# https://github.com/openssl/openssl
+sudo apt install -y libssl-dev
+
+# https://github.com/c-ares/c-ares
+sudo apt install -y libc-ares2
+
+# https://mediaarea.net/en/MediaInfo
+sudo apt install -y libmediainfo0v5
+
+# https://github.com/MediaArea/ZenLib
+sudo apt install -y libzen0v5
+
+# https://launchpad.net/qpdfview
+sudo apt install -y qpdfview
+
+# https://pdfpc.github.io
+sudo apt install -y pdf-presenter-console
+
+# https://filezilla-project.org
+sudo apt install -y filezilla
+
+# https://github.com/jgm/pandoc
+sudo apt install -y pandoc
+
+# https://qpdf.sourceforge.io
+sudo apt install -y qpdf
+
+# https://gitlab.com/pdftk-java/pdftk
+sudo apt install -y pdftk-java
+
+# https://www.cups-pdf.de
+sudo apt install -y printer-driver-cups-pdf
+
+# https://ffmpeg.org
+sudo apt install -y ffmpeg
+
+# https://github.com/HandBrake/HandBrake
+sudo apt install -y handbrake
+
+# https://mp3wrap.sourceforge.net
+sudo apt install -y mp3wrap
+
+# https://github.com/flameshot-org/flameshot
+sudo apt install -y flameshot
+
+# https://github.com/audacity/audacity
+sudo apt install -y audacity
+
+# https://www.videolan.org/vlc
+sudo apt install -y vlc
+
+# https://github.com/fastfetch-cli/fastfetch
+# https://github.com/aristocratos/btop
+# https://github.com/alacritty/alacritty
+# https://www.anaconda.com/download/success

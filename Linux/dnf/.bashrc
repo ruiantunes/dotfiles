@@ -30,6 +30,8 @@ alias emacs="emacs -nw"
 alias vim="vim -i NONE"
 alias v="vim"
 
+alias less="vim -R"
+
 # alias python3=python3.9
 alias python=python3
 
@@ -51,7 +53,8 @@ c() {
     if [ -d "$1" ]; then
         cd "$@" && l;
     elif [ -f "$1" ]; then
-        cat "$@";
+        bat "$@";
+        # cat "$@";
     else
         l;
     fi
@@ -82,14 +85,11 @@ alias h="c ~"
 # alias i=""
 # alias s=""
 # alias t=""
-# alias y=""
 # alias z=""
 
-# APT (Debian).
-alias u="sudo apt autoclean && sudo apt autoremove && sudo apt update && sudo apt upgrade"
-
-# DNF (Fedora).
-# alias u="sudo dnf upgrade --refresh"
+alias u="sudo dnf upgrade --refresh"
 
 # Homebrew (macOS or Linux).
 # alias u="brew update && brew upgrade"
+
+alias y="if [ -z \"\$CONDA_PREFIX\" ]; then conda activate py; else conda deactivate; fi"

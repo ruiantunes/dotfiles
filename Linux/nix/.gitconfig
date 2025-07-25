@@ -1,0 +1,6 @@
+[core]
+	filemode = true
+[init]
+	defaultBranch = main
+[status]
+	showUntrackedFiles = all
