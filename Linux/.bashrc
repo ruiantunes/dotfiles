@@ -36,10 +36,11 @@ alias python=python3
 alias e="exit"
 alias f="fastfetch"
 alias n="neofetch"
+alias o="htop"
 alias p="python3"
 alias q="exit"
 alias r="clear"
-alias o="htop"
+alias x="exit"
 
 # cd and then ls automatically.  cat if it is a file.
 # https://superuser.com/questions/507697/how-do-i-cd-and-then-ls-automatically-in-linux
@@ -75,3 +76,20 @@ alias .6="c ../../../../../.."
 
 alias d="c ~/Downloads/"
 alias h="c ~"
+
+# alias b=""
+# alias g=""
+# alias i=""
+# alias s=""
+# alias t=""
+# alias y=""
+# alias z=""
+
+# APT (Debian).
+alias u="sudo apt autoclean && sudo apt autoremove && sudo apt update && sudo apt upgrade"
+
+# DNF (Fedora).
+# alias u="sudo dnf upgrade --refresh"
+
+# Homebrew (macOS or Linux).
+# alias u="brew update && brew upgrade"
