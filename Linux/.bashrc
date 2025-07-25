@@ -20,6 +20,9 @@ alias ll="ls --color=auto -lhvF --group-directories-first"
 # https://github.com/andreafrancia/trash-cli
 alias rm='echo "This is not the command you are looking for."; false'
 
+# Disable the snap command.
+alias snap='echo "Snap is disabled."; false'
+
 alias emacs="emacs -nw"
 
 # Disable viminfo completely.
@@ -28,6 +31,7 @@ alias vim="vim -i NONE"
 alias v="vim"
 
 # alias python3=python3.9
+alias python=python3
 
 alias e="exit"
 alias f="fastfetch"
