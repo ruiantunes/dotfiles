@@ -206,6 +206,9 @@ sudo apt install -y pdf-presenter-console
 # https://filezilla-project.org
 sudo apt install -y filezilla
 
+# https://github.com/thewml/website-meta-language
+sudo apt install -y wml
+
 # https://github.com/jgm/pandoc
 sudo apt install -y pandoc
 

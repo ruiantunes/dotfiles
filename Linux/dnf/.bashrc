@@ -44,6 +44,17 @@ alias q="exit"
 alias r="clear"
 alias x="exit"
 
+alias ga="git add"
+alias gb="git branch"
+alias gc="git commit"
+alias gd="git diff"
+alias gdw="git diff --color-words"
+alias gl="git log"
+alias gpl="git pull"
+alias gps="git push"
+alias gr="git remote"
+alias gs="git status"
+
 # cd and then ls automatically.  cat if it is a file.
 # https://superuser.com/questions/507697/how-do-i-cd-and-then-ls-automatically-in-linux
 # https://unix.stackexchange.com/questions/20396/make-cd-automatically-ls
