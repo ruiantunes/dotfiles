@@ -140,9 +140,6 @@ sudo apt install -y geany
 # https://github.com/KDE/okular
 sudo apt install -y okular
 
-# https://launchpad.net/grub-customizer
-sudo apt install -y grub-customizer
-
 # https://www.libreoffice.org
 sudo apt install -y libreoffice-java-common
 

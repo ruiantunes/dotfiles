@@ -89,8 +89,8 @@ alias h="c ~"
 
 alias y="if [ -z \"\$CONDA_PREFIX\" ]; then conda activate py; else conda deactivate; fi"
 
-# DNF (Dandified Yum) is used in Fedora.
-alias u="sudo dnf upgrade --refresh"
+# Pacman is used in Arch Linux.
+alias u="sudo pacman -Syu"
 
 # Homebrew can be used in macOS or Linux.
 # alias u="brew update && brew upgrade"

@@ -87,9 +87,10 @@ alias h="c ~"
 # alias t=""
 # alias z=""
 
+alias y="if [ -z \"\$CONDA_PREFIX\" ]; then conda activate py; else conda deactivate; fi"
+
+# APT (Advanced Package Tool) is used in Debian.
 alias u="sudo apt autoclean && sudo apt autoremove && sudo apt update && sudo apt upgrade"
 
-# Homebrew (macOS or Linux).
+# Homebrew can be used in macOS or Linux.
 # alias u="brew update && brew upgrade"
-
-alias y="if [ -z \"\$CONDA_PREFIX\" ]; then conda activate py; else conda deactivate; fi"
