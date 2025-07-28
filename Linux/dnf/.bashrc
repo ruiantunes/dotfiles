@@ -13,8 +13,8 @@ PROMPT_DIRTRIM=2
 # https://vikaskyadav.github.io/awesome-bash-alias/
 # https://askubuntu.com/questions/146031/bash-alias-alias-name-should-be-a-simple-dash-not-working
 
-alias l="ls --color=auto -alhvF --group-directories-first"
-alias ll="ls --color=auto -lhvF --group-directories-first"
+alias  l="ls --color=auto -alhvF --group-directories-first"
+alias ll="ls --color=auto  -lhvF --group-directories-first"
 
 # Alias rm to something that will remind you to not use it.
 # https://github.com/andreafrancia/trash-cli
@@ -28,7 +28,7 @@ alias emacs="emacs -nw"
 # Disable viminfo completely.
 # https://unix.stackexchange.com/questions/329545/disable-viminfo-completely
 alias vim="vim -i NONE"
-alias v="vim"
+alias   v="vim"
 
 alias less="vim -R"
 
@@ -44,16 +44,20 @@ alias q="exit"
 alias r="clear"
 alias x="exit"
 
-alias ga="git add"
-alias gb="git branch"
-alias gc="git commit"
-alias gd="git diff"
+alias  ga="git add"
+alias gaa="git add -A"
+alias  gb="git branch"
+alias  gc="git commit"
+alias gcm="git commit -m"
+alias  gd="git diff"
 alias gdw="git diff --color-words"
-alias gl="git log"
+alias  gl="git log"
+alias  gp="git pull"
 alias gpl="git pull"
 alias gps="git push"
-alias gr="git remote"
-alias gs="git status"
+alias grv="git remote -v"
+alias  gs="git status"
+alias gsh="git show"
 
 # cd and then ls automatically.  cat if it is a file.
 # https://superuser.com/questions/507697/how-do-i-cd-and-then-ls-automatically-in-linux
@@ -74,19 +78,19 @@ c() {
 # https://stackoverflow.com/questions/13547809/create-a-bash-alias-for-the-cd-command
 # https://askubuntu.com/questions/1201991/shell-navigate-up-n-directories
 # https://stackoverflow.com/questions/29771918/how-to-create-an-alias-in-a-shell-to-go-to-parent-directories
-alias -- -="cd - && c"
-alias ..="c .."
-alias ...="c ../.."
-alias ....="c ../../.."
-alias .....="c ../../../.."
-alias ......="c ../../../../.."
+alias --    -="cd - && c"
+alias      ..="c .."
+alias     ...="c ../.."
+alias    ....="c ../../.."
+alias   .....="c ../../../.."
+alias  ......="c ../../../../.."
 alias .......="c ../../../../../.."
-alias .1="c .."
-alias .2="c ../.."
-alias .3="c ../../.."
-alias .4="c ../../../.."
-alias .5="c ../../../../.."
-alias .6="c ../../../../../.."
+alias      .1="c .."
+alias      .2="c ../.."
+alias      .3="c ../../.."
+alias      .4="c ../../../.."
+alias      .5="c ../../../../.."
+alias      .6="c ../../../../../.."
 
 alias d="c ~/Downloads/"
 alias h="c ~"
@@ -98,10 +102,10 @@ alias h="c ~"
 # alias t=""
 # alias z=""
 
-alias y="if [ -z \"\$CONDA_PREFIX\" ]; then conda activate py; else conda deactivate; fi"
+alias y="if [ -z \"\$CONDA_PREFIX\" ]; then conda activate base; else conda deactivate; fi"
 
 # DNF (Dandified Yum) is used in Fedora.
 alias u="sudo dnf upgrade --refresh"
 
 # Homebrew can be used in macOS or Linux.
-# alias u="brew update && brew upgrade"
+# alias bu="brew update && brew upgrade"
