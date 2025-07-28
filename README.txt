@@ -8,3 +8,10 @@ Author:
 
 Repository:
     https://github.com/ruiantunes/dotfiles
+
+
+------------------------------------------------------------------------
+
+
+What are dotfiles?
+https://en.wikipedia.org/wiki/dotfiles
