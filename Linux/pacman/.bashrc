@@ -13,8 +13,8 @@ PROMPT_DIRTRIM=2
 # https://vikaskyadav.github.io/awesome-bash-alias/
 # https://askubuntu.com/questions/146031/bash-alias-alias-name-should-be-a-simple-dash-not-working
 
-alias  l="ls --color=auto -alhvF --group-directories-first"
-alias ll="ls --color=auto  -lhvF --group-directories-first"
+alias  l="ls --color=auto  -lhvF --group-directories-first"
+alias ll="ls --color=auto -alhvF --group-directories-first"
 
 # Alias rm to something that will remind you to not use it.
 # https://github.com/andreafrancia/trash-cli
@@ -32,32 +32,35 @@ alias   v="vim"
 
 alias less="vim -R"
 
-# alias python3=python3.9
-alias python=python3
-
 alias e="exit"
 alias f="fastfetch"
-alias n="neofetch"
-alias o="htop"
 alias p="python3"
 alias q="exit"
 alias r="clear"
+alias t="htop"
 alias x="exit"
 
-alias  ga="git add"
-alias gaa="git add -A"
-alias  gb="git branch"
-alias  gc="git commit"
-alias gcm="git commit -m"
-alias  gd="git diff"
-alias gdw="git diff --color-words"
-alias  gl="git log"
-alias  gp="git pull"
-alias gpl="git pull"
-alias gps="git push"
-alias grv="git remote -v"
-alias  gs="git status"
-alias gsh="git show"
+alias   ga="git add"
+alias  gaa="git add -A"
+alias   gb="git branch"
+alias  gba="git branch -a"
+alias   gc="git commit"
+alias  gca="git commit --amend"
+alias gcam="git commit --amend -m"
+alias  gcm="git commit -m"
+alias   gd="git diff"
+alias  gdc="git diff --cached"
+alias gdcw="git diff --cached --word-diff=color"
+alias  gds="git diff --cached"
+alias  gdw="git diff --word-diff=color"
+alias gdwc="git diff --cached --word-diff=color"
+alias   gl="git log"
+alias   gp="git pull"
+alias  gpl="git pull"
+alias  gps="git push"
+alias  grv="git remote -v"
+alias   gs="git status"
+alias  gsh="git show"
 
 # cd and then ls automatically.  cat if it is a file.
 # https://superuser.com/questions/507697/how-do-i-cd-and-then-ls-automatically-in-linux
@@ -98,6 +101,7 @@ alias h="c ~"
 # alias b=""
 # alias g=""
 # alias i=""
+# alias n=""
 # alias s=""
 # alias t=""
 # alias z=""
