@@ -10,7 +10,7 @@ Repository:
     https://github.com/ruiantunes/dotfiles
 
 
-------------------------------------------------------------------------
+---
 
 
 What are dotfiles?

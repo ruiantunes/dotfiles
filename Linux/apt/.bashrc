@@ -13,8 +13,10 @@ PROMPT_DIRTRIM=2
 # https://vikaskyadav.github.io/awesome-bash-alias/
 # https://askubuntu.com/questions/146031/bash-alias-alias-name-should-be-a-simple-dash-not-working
 
-alias  l="ls --color=auto  -lhvF --group-directories-first"
-alias ll="ls --color=auto -alhvF --group-directories-first"
+alias  l="\ls --color=auto  -lhvF --group-directories-first"
+alias la="\ls --color=auto -alhvF --group-directories-first"
+alias ll="\ls --color=auto -alhvF --group-directories-first"
+alias ls="\ls --color=auto -alhvF --group-directories-first"
 
 # Alias rm to something that will remind you to not use it.
 # https://github.com/andreafrancia/trash-cli
@@ -27,10 +29,11 @@ alias emacs="emacs -nw"
 
 # Disable viminfo completely.
 # https://unix.stackexchange.com/questions/329545/disable-viminfo-completely
-alias vim="vim -i NONE"
-alias   v="vim"
+alias    v="\vim -i NONE"
+alias   vi="\vim -i NONE"
+alias  vim="\vim -i NONE"
 
-alias less="vim -R"
+alias less="\vim -i NONE -n -R"
 
 alias e="exit"
 alias f="fastfetch"
@@ -54,6 +57,7 @@ alias gdcw="git diff --cached --word-diff=color"
 alias  gds="git diff --cached"
 alias  gdw="git diff --word-diff=color"
 alias gdwc="git diff --cached --word-diff=color"
+alias   gi="git init"
 alias   gl="git log"
 alias   gp="git pull"
 alias  gpl="git pull"
@@ -61,6 +65,8 @@ alias  gps="git push"
 alias  grv="git remote -v"
 alias   gs="git status"
 alias  gsh="git show"
+
+alias    s="git status"
 
 # cd and then ls automatically.  cat if it is a file.
 # https://superuser.com/questions/507697/how-do-i-cd-and-then-ls-automatically-in-linux
@@ -102,14 +108,10 @@ alias h="c ~"
 # alias g=""
 # alias i=""
 # alias n=""
-# alias s=""
-# alias t=""
 # alias z=""
 
 alias y="if [ -z \"\$CONDA_PREFIX\" ]; then conda activate base; else conda deactivate; fi"
 
 # APT (Advanced Package Tool) is used in Debian.
-alias u="sudo apt autoclean && sudo apt autoremove && sudo apt update && sudo apt upgrade"
-
-# Homebrew can be used in macOS or Linux.
-# alias bu="brew update && brew upgrade"
+alias  u="sudo apt autoclean && sudo apt autoremove && sudo apt update && sudo apt upgrade"
+alias uf="sudo apt --fix-broken install"
